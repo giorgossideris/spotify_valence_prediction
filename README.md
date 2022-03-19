@@ -33,4 +33,7 @@ This repository contains 4 notebooks, and each of them has its own purpose. Spec
   * **data_preparation**: contains the code used to collect and prepare the data that will be used by the other notebooks.
   * **statistics**: contains some statistical analyses, that were done in order to understand better the correlation between numerous features and valence.
   * **non_nn_predictive**: contains the development of various predictive models (not including neural networks).
-  * **nn_predictive**: contains the development of neural network models, for valence prediction. (*Soon to be uploaded*)
+  * **nn_predictive**: contains the development of neural network models, for valence prediction.
+
+## Results
+The best results were achieved by the **Neural Network built around all the data collected and metadata created**. Specifically, its *Mean Absolute Error* on the test set was **0.0846**.
